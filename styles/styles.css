@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=REM:wght@300;700&family=Tektur:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+h2, h3, h4, h5, h6, p{
+  margin: 40px 40px;
+}
+
+body {
+  font-family: 'REM', sans-serif;
+  color: #333333;
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  font-size: 18px;
+  background-color: #F2F3F2;
+}
+
+h1 {
+  font-family: 'Belanosima', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+}
+
+h2{
+  font-family: 'Tektur', cursive;
+  color: #643173;
+}
+
+h3, h4, h5, h6{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 28px;
+    color: #7D5BA6;
+    line-height: 1.15;
+    letter-spacing: -.02em;
+}
+
+header, footer{
+  background-color: #86A59C;
+}
+
+header{
+  top: 0;
+  height: 100px;
+  width: 100%;
+}
+
+footer{
+  bottom: 0;
+  height: 250px;
+  width: 100%;
+}
+
+header h1, footer h1, footer p{
+  text-align: center;
+  color: #F2F3F2;
+  padding: 30px;
+}
+
+p{
+  text-indent: 50px;
+}
+
+div.container{
+  font-family: Tektur;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background: #86A59C;
+}
+
+div.container a{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Tektur;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+div.borderXwidth a:before, div.borderXwidth a:after{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.borderXwidth a:before{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderXwidth a:after{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
+    opacity: 1;
+    width: 100%;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-right: 40px;
+    grid-template-areas: 
+    'text image';
+}
+
+#design1, #design5, #design7, #design8{
+  object-fit: cover;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+ #design7, #design8{
+  padding-top: 70px;
+ }
+
+
+#design2{
+  float: right;
+  margin-right: 40px;
+  margin-left: 20px;
+  height: 300px;
+  width: 400px;
+}
+
+#design3{
+  float: left;
+  margin-right: 20px;
+  margin-left: 40px;
+  height: 275px;
+  width: 275px;
+  margin-left: 40px;
+}
+
+
