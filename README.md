@@ -1,5 +1,4 @@
-# Navigation
+# Floats
+## What I learned/Practiced
 
-Asignment: 
-
-[Visit the Site](https://giaviolini.github.io/Navigation/)
+[Visit the Site](https://giaviolini.github.io/floats/)
