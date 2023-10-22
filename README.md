@@ -24,4 +24,4 @@ ex. ```margin: 20px, 0px;```
 You could also just have ```margin: 20;``` and that would give every side a 20 px margin.
 
 
-[Visit the Site](c)
+[Visit the Site](https://giaviolini.github.io/Floats/)
